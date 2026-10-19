@@ -1,0 +1,9 @@
+path,class,group_id,resnet18_pred,resnet18_confidence,clip_pred,clip_confidence
+datos/imagenes/test/c60b360f9d43dbcf35b726424ae7bf868351dcba81c71731d86e33382ee74754.jpg,Creatina,Screenshot-2026-01-29-at-2-26-59-PM_png,Clear protein,0.577262282371521,Clear protein,0.36486777663230896
+datos/imagenes/test/0ae330dd118dfd3ffe564a1ffc70a26e54b80f1e701627041ff06e79bdb58847.jpg,Clear protein,Screenshot-2026-02-03-at-12-10-11-PM_png,Clear protein,0.7063090801239014,Clear protein,0.44054827094078064
+datos/imagenes/test/21aa6e3d2fc55dd3b8679876fcdc678953d0a03ccc7da846639ba0e5726a6a35.jpg,Preentreno,Screenshot-2026-01-29-at-2-17-48-PM_png,Clear protein,0.6314395666122437,Preentreno,0.5193755030632019
+datos/imagenes/test/e1dcefbde57b850a29f068028f934c6e289e01594119551b9f92e5546fed1925.jpg,Preentreno,Screenshot-2026-02-03-at-10-35-51-AM_png,Clear protein,0.5313892960548401,Clear protein,0.9598928093910217
+datos/imagenes/test/c32c6a3d8127dc0eb3f4b3a60cfd028c9e5e3544c4e00ca277e3e88a4be665cf.jpg,Preentreno,Screenshot-2026-01-29-at-2-17-59-PM_png,Clear protein,0.5012489557266235,Preentreno,0.9367579817771912
+datos/imagenes/test/b13f1f70b923bc9c99182373c841e7ff494393b0fb457f0706a8f01d46854762.jpg,Preentreno,Screenshot-2026-02-03-at-11-27-15-AM_png,Clear protein,0.5674087405204773,Preentreno,0.6318734288215637
+datos/imagenes/test/bd7a064a477804e215c9150addb3e2e24d0cd1f2c3010e7e2318b4a9a992844d.jpg,Preentreno,Screenshot-2026-01-29-at-2-18-44-PM_png,Clear protein,0.5497661232948303,Preentreno,0.8431437015533447
+datos/imagenes/test/7ff985b0993269e7dafa21eb5cd6b36c7c282cf0181aa0343811843edda70869.jpg,Clear protein,Screenshot-2026-02-03-at-10-45-39-AM_png,Clear protein,0.540191113948822,Preentreno,0.5261791944503784

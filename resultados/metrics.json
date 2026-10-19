@@ -1,0 +1,226 @@
+{
+  "validation": {
+    "resnet18": {
+      "accuracy": 0.6666666666666666,
+      "balanced_accuracy": 0.6666666666666666,
+      "report": {
+        "Clear protein": {
+          "precision": 0.7,
+          "recall": 1.0,
+          "f1-score": 0.8235294117647058,
+          "support": 7.0
+        },
+        "Creatina": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "Preentreno": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1-score": 0.6666666666666666,
+          "support": 1.0
+        },
+        "accuracy": 0.6666666666666666,
+        "macro avg": {
+          "precision": 0.39999999999999997,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.49673202614379086,
+          "support": 12.0
+        },
+        "weighted avg": {
+          "precision": 0.44999999999999996,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.5359477124183006,
+          "support": 12.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          7,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "clip": {
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.2857142857142857,
+      "report": {
+        "Clear protein": {
+          "precision": 0.6666666666666666,
+          "recall": 0.8571428571428571,
+          "f1-score": 0.75,
+          "support": 7.0
+        },
+        "Creatina": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "Preentreno": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "accuracy": 0.5,
+        "macro avg": {
+          "precision": 0.2222222222222222,
+          "recall": 0.2857142857142857,
+          "f1-score": 0.25,
+          "support": 12.0
+        },
+        "weighted avg": {
+          "precision": 0.38888888888888884,
+          "recall": 0.5,
+          "f1-score": 0.4375,
+          "support": 12.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    }
+  },
+  "test": {
+    "resnet18": {
+      "accuracy": 0.25,
+      "balanced_accuracy": 0.3333333333333333,
+      "report": {
+        "Clear protein": {
+          "precision": 0.25,
+          "recall": 1.0,
+          "f1-score": 0.4,
+          "support": 2.0
+        },
+        "Creatina": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "Preentreno": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "accuracy": 0.25,
+        "macro avg": {
+          "precision": 0.08333333333333333,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.13333333333333333,
+          "support": 8.0
+        },
+        "weighted avg": {
+          "precision": 0.0625,
+          "recall": 0.25,
+          "f1-score": 0.1,
+          "support": 8.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          5,
+          0,
+          0
+        ]
+      ]
+    },
+    "clip": {
+      "accuracy": 0.625,
+      "balanced_accuracy": 0.43333333333333335,
+      "report": {
+        "Clear protein": {
+          "precision": 0.3333333333333333,
+          "recall": 0.5,
+          "f1-score": 0.4,
+          "support": 2.0
+        },
+        "Creatina": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "Preentreno": {
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1-score": 0.8,
+          "support": 5.0
+        },
+        "accuracy": 0.625,
+        "macro avg": {
+          "precision": 0.37777777777777777,
+          "recall": 0.43333333333333335,
+          "f1-score": 0.4000000000000001,
+          "support": 8.0
+        },
+        "weighted avg": {
+          "precision": 0.5833333333333334,
+          "recall": 0.625,
+          "f1-score": 0.6,
+          "support": 8.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          4
+        ]
+      ]
+    }
+  },
+  "selected": "resnet18",
+  "selection_rule": "Mayor balanced accuracy en validación; empate favorece ResNet18",
+  "seed": 42,
+  "test_size": 8
+}
